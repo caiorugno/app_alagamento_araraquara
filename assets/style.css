@@ -1,0 +1,80 @@
+/* Fundo geral */
+body {
+    background-color: #F9F9F9;
+    color: #333333;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Cabeçalhos */
+h1, h2, h3 {
+    color: #D62828;
+}
+
+/* Subtítulos e seções */
+h4, h5, h6 {
+    color: #007BFF;
+}
+
+/* Barras e divisores */
+hr {
+    border-top: 2px solid #FCA311;
+}
+
+/* Botões e interações */
+button, .stButton>button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Métricas */
+[data-testid="metric-container"] {
+    background-color: #FFF5E5;
+    border-left: 5px solid #FCA311;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Títulos de abas */
+.stTabs [role="tablist"] {
+    background-color: #FCA311;
+    border-radius: 5px;
+}
+
+.stTabs [role="tab"] {
+    color: white;
+    font-weight: bold;
+}
+/* Estilo para abas */
+.stTabs [role="tablist"] {
+    background-color: #F9F9F9;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #DDD;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
+
+/* Cada aba individual */
+.stTabs [role="tab"] {
+    background-color: #FFFFFF;
+    margin-right: 8px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid #CCC;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Aba ativa */
+.stTabs [aria-selected="true"] {
+    background-color: #FFB703; /* cor do logo (amarelo/laranja) */
+    border-color: #FFB703;
+    color: #000;
+}
